@@ -84,7 +84,9 @@ body {
 .content h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #10132B;
+    color: #E6F0FA; /* make main title visible on dark bg */
+    letter-spacing: -0.5px;
+    font-weight: 700;
 }
 
 .subtitle {
@@ -94,17 +96,79 @@ body {
 }
 
 .content h2 {
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #10132B;
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #E6F7FA;
+    font-weight: 700;
 }
 
 .content h3 {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-bottom: 10px;
-    color: #10132B;
+    color: #D7EEF6;
+    font-weight: 600;
+}
+
+/* Privacy panel and section label styles */
+.privacy-content {
+    background-color: rgba(255,255,255,0.02);
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
+}
+
+.privacy-content h2 {
+    display: block;
+    background: transparent;
+    padding: 12px 16px;
+    border-left: 4px solid #73E7E8;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #E8FBFD;
+    margin-top: 18px;
+}
+
+/* headings already include their section numbers in text; no extra marker rules required */
+
+.privacy-content p,
+.privacy-content li {
+    color: #DDEAF6;
+    font-size: 16px;
+}
+
+.privacy-content ul {
+    margin-left: 22px;
+}
+
+/* Terms page should match privacy visuals */
+.terms-content {
+    background-color: rgba(255,255,255,0.02);
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
+}
+
+.terms-content h2 {
+    display: block;
+    background: transparent;
+    padding: 12px 16px;
+    border-left: 4px solid #73E7E8;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #E8FBFD;
+    margin-top: 18px;
+}
+
+.terms-content p,
+.terms-content li {
+    color: #DDEAF6;
+    font-size: 16px;
+}
+
+.terms-content ul {
+    margin-left: 22px;
 }
 
 .content p {
